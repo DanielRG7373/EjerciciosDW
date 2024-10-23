@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Layout Horizontal</title>
+
+        <style>
+            /*RESET CSS*/
+
+            *{
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+            }
+
+            .contenedor{
+                /*background: lightblue;*/
+                display: flex;
+            }
+            .sidebar {
+                background-color: rgb(255, 252, 204);
+                width: 200px;
+                padding: 20px;
+            }
+            .content{
+                padding: 20px;
+                flex: 1;
+            }
+            .sidebar ul{
+                list-style: none;
+            }
+
+            .contenedor .sidebar a {
+                text-decoration: none;
+                color: black;
+            }
+
+
+        </style>
+
+</head>
+<body>
+    <div class="contenedor">
+
+        <div class="sidebar">
+            <ul>
+                <li>elemento1</li>
+                <li>elemento2</li>
+                <li>elemento3</li>
+                <li><a href="../dia5/README.md">Home</a></li>
+            </ul>
+
+        </div>
+
+        <div class="content">
+            <h1>Contenido principal</h1>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat explicabo consequatur tempora incidunt mollitia, perspiciatis quia vitae saepe nostrum, quis non. Eius eos maiores tenetur animi excepturi repellendus magni nam?
+            Aperiam libero adipisci placeat non dignissimos corporis quaerat asperiores error excepturi tempora, impedit velit vitae deserunt, obcaecati itaque laboriosam dolores ab id rem enim. Molestiae corrupti fugiat commodi error aspernatur.</p>
+
+        </div>
+
+    </div>
+</body>
+</html>

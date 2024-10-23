@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Layout Horizontal</title>
+
+    <style>
+        /*RESET CSS*/
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header, .footer {
+            background-color: rgb(38, 38, 38);
+            padding: 10px;
+            color: white;
+            font-size: 25px;
+        }
+        .footer{
+            display: flex;
+            justify-content: center;
+
+        }
+
+        .contenedor {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .sidebar {
+            background-color: rgb(194, 194, 194);
+            width: 200px;
+            padding: 20px;
+        }
+
+        .content {
+            padding: 20px;
+            flex: 1;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .sidebar ul {
+            list-style: none;
+        }
+
+        .contenedor .sidebar a {
+            text-decoration: none;
+            color: black;
+        }
+        .logoinicio{
+            display: flex;
+            justify-content: flex-start;
+        }
+        .listasuperior{
+            display: flex;
+            flex-direction: row;
+            list-style: none;
+            justify-content: end;
+        }
+        .fila2{
+            display: flex;
+            justify-content: flex-start;
+        }
+        li {
+            margin: 10px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <div class="contenedor">
+
+        <div class="header">
+            <p class="logoinicio">Logo</p>
+                <ul class="listasuperior">
+                    <li>inicio</li>
+                    <li>acerca de</li>
+                    <li>servicios</li>
+                    <li>contacto</li>
+                </ul>
+        </div>
+        <div class="fila2">
+            <div class="sidebar">
+                <h2 class="Lateral">Barra Lateral</h2>
+                    <ul>
+                        <li>elemento1</li>
+                        <li>elemento2</li>
+                        <li>elemento3</li>
+                        <li><a href="../dia5/README.md">Home</a></li>
+                    </ul>
+            </div>
+            <div class="content">
+                <h1>Contenido principal</h1>
+                <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid enim magnam, repellendus assumenda
+                    quo minima
+                    explicabo ullam error nihil veniam minus unde, amet labore dolores necessitatibus beatae,
+                    consequatur iusto harum.
+                    Rerum quam quidem dolorum eius temporibus, minus voluptatibus, ea tempora enim fuga, sit explicabo
+                    autem natus. Possimus
+                    nisi rerum delectus. Maxime error blanditiis reiciendis necessitatibus voluptas numquam cum ullam
+                    sequi?
+                    Natus tenetur excepturi tempora necessitatibus, vero ab, molestiae quas commodi, provident
+                    distinctio dolor veritatis nihil
+                    voluptates placeat unde ipsam nulla vitae! Quam fugiat voluptatum repellendus blanditiis provident
+                    id, incidunt nulla.
+                    Eveniet omnis necessitatibus tempore ut laboriosam mollitia tenetur ratione placeat perferendis!
+                    Voluptates, rerum quidem,
+                    expedita provident perferendis suscipit veritatis, minus dignissimos voluptatum saepe magnam qui
+                    fugit! Aut veniam dolor
+                    quasi.
+                    Incidunt vitae ipsam nobis adipisci expedita sint eligendi neque dicta, beatae officiis, repellendus
+                    vero illum suscipit
+                    facere eum rem minima, praesentium cumque eius labore unde facilis. Enim neque aspernatur minima.
+                    Aliquid suscipit repudiandae voluptatibus sit autem. Quia possimus velit animi explicabo cum quod
+                    enim accusantium pariatur
+                    adipisci inventore error doloremque culpa eligendi odit, dolore neque exercitationem distinctio!
+                    Dolorem, impedit suscipit.
+                    Ullam in necessitatibus aliquid eius quod sed ea possimus et iste reprehenderit culpa quidem rerum
+                    quia odio alias officia
+                    placeat laboriosam iusto, labore sequi impedit sunt! Architecto vel officiis eos?
+                    Labore veniam laboriosam inventore! Officia perspiciatis corrupti nam voluptatem vitae, cumque
+                    fugiat obcaecati ratione
+                    magnam est accusantium assumenda incidunt aliquam rem nemo odit fugit error laudantium. Veniam
+                    provident consectetur optio?
+                    Eveniet minima deserunt enim ducimus quas velit sapiente voluptatem aliquid dicta consectetur alias
+                    in, a est, tenetur
+                    expedita magnam! Vitae rem vel nam magnam iste dicta cumque nulla consectetur voluptatibus!
+                    Quasi omnis illum inventore dignissimos, voluptates aliquid eveniet quam necessitatibus consequuntur
+                    velit asperiores
+                    architecto ducimus dicta eos beatae quidem possimus soluta totam? Assumenda nam perferendis unde
+                    minus molestias mollitia
+                    corporis.</p>
+            </div>
+
+        </div>
+        <div class="footer">
+            <p class="final">edhfiwufgñugifv</p>
+        </div>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Layout Vertical</title>
+
+    <style>
+
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header, .footer {
+            background-color: rgb(129, 102, 102);
+            padding: 10px;
+            color: white;
+            font-size: 25px;
+        }
+        
+        .Contenido {
+            font-size: 20px;
+            color: beige;
+            display: flex;
+            flex-direction: column;
+            height: 100vh; /* vh = ocupa al menos el 100% de la altura del viewport*/
+        }
+
+        .content {
+            flex: 1;
+            background-color: rgb(111, 121, 128);
+            padding: 3px;
+            overflow: hidden;
+            /*overflow: scroll;*/
+        }
+    </style>
+
+
+</head>
+<body>
+
+    <div class="header">
+        header
+    </div >
+
+    <div class="Contenido">
+
+        <div class="content">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat nulla nam vitae molestias ex! Doloremque nemo, nisi obcaecati doloribus explicabo commodi veritatis dicta perferendis blanditiis esse quia. Fugit, asperiores consectetur.
+            Consequuntur laboriosam quo temporibus itaque magni rem optio qui suscipit repudiandae, dolorem placeat quos asperiores! Fugit cupiditate quas eveniet fugiat vero labore laborum doloremque corporis ipsam dolorum omnis, voluptatem assumenda.
+            Perspiciatis corporis nihil consequuntur ullam eos accusantium mollitia voluptatibus, veritatis eum vero quos dolore blanditiis enim aliquid cupiditate ea optio vitae voluptate facilis inventore repudiandae culpa nostrum rem! Nihil, deleniti.
+            Repellendus maiores temporibus rem optio officia dignissimos at exercitationem eligendi harum consequatur fugiat dolorum perferendis ex, mollitia illo ullam pariatur? Animi saepe eveniet culpa blanditiis dicta minima architecto commodi fugit?
+            Iure, maxime saepe quisquam, voluptas nesciunt magni quae repudiandae dolor fugiat quod cupiditate facere modi ipsum, voluptates optio inventore sit illo sequi dolores accusantium veniam tenetur. Maxime quod dolore unde.
+            Laudantium fugiat voluptas nobis odio magni laboriosam autem. Suscipit impedit molestiae fugiat fugit labore modi eos ipsum quidem deserunt reiciendis similique quo dicta atque quia, expedita nemo minus nesciunt repellendus.
+            Voluptate a dolorem ipsam deleniti? Veniam quibusdam asperiores veritatis voluptatem sequi, doloremque pariatur, est animi voluptatum dolores, earum aliquid! Earum nulla harum placeat voluptate id, exercitationem alias nobis delectus perspiciatis?
+            Minus, earum quisquam repellat numquam provident explicabo voluptatibus aliquid assumenda consequatur doloribus sapiente quis possimus error dolore consequuntur, quod mollitia aperiam sint optio ea deserunt repellendus officia, molestias cumque? Eius!
+            Nisi consequatur corrupti impedit hic provident nesciunt ratione cum, minus, sint libero voluptates possimus at, eligendi ex odio ipsum inventore minima reprehenderit. Sed perferendis at, perspiciatis officia aliquam ipsum molestiae!
+            Dolore beatae harum voluptate veniam optio, eos, voluptatum, soluta adipisci nostrum aliquid eveniet architecto deleniti deserunt quis voluptatibus quos laborum ratione eum. Quasi, repudiandae. Laudantium iure quia aperiam mollitia qui!
+        </div>
+    </div>
+
+    <div class="footer">
+    <p class="final">Footer</p>
+    </div>
+</body>
+</html>
