@@ -1,0 +1,97 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.p1 {
+    display: flex;
+    height: 250px;
+    max-width: 100%;
+    padding: 10px;
+    grid-gap: 10px;
+}
+
+.UsuarioP {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.FotoPerfil {
+    display: flex;
+    margin: 20px;
+    width:180px;
+    height:180px;
+    border-radius: 100px;
+}
+
+.descripcionperfil {
+    height: 200px;
+    width: 800px;
+    margin: 10px;
+    font-size: 15px;
+    margin-top: 20px;
+    max-width: 100%;
+    grid-gap: 10px;
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+    text-align: justify;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+}
+
+.Descript {
+    display: flex;
+    justify-content: center;    
+}
+
+.enlace1 {
+    display: flex;
+    border-radius: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+
+
+.Recetas {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content:center;
+    
+}
+
+.card {
+    flex: 0 0 200px;
+    margin: 20px;
+    border: 1px solid #959595;
+    box-shadow: 2px 6px 6px 0px rgba(0, 0, 0, 0.3);
+}
+
+.card img {
+    max-width: 100%;
+}
+
+.card .text {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px 20px;
+}
+
+.card button {
+    background: gray;
+    border: 0;
+    color: white;
+    padding: 10px;
+    width: 100%;
+}
