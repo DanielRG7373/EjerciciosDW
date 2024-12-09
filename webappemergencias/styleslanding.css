@@ -179,8 +179,7 @@ nav ul li ul li a:hover {
     border-radius: 5px;
 }
 
-.box h2,
-.box p {
+.box h2, .box p {
     margin-bottom: 5px;
 }
 
@@ -278,8 +277,6 @@ footer a:hover {
         height: 100%;
         object-fit: cover;
         opacity: 30%;
-
-
     }
 
     .main-content {

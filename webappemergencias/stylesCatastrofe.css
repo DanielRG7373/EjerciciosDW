@@ -152,7 +152,7 @@ iframe {
     flex-direction: column;
 }
 
-/* Detalles de la Asistencia */
+/* Asistencia */
 .assistence {
     overflow-y:scroll;
     display: flex;
